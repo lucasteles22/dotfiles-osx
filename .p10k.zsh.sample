@@ -1,0 +1,1 @@
+[[ -f ~/.config/local/.p10k.zsh ]] && source ~/.config/local/.p10k.zsh
