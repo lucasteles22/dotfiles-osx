@@ -1,0 +1,42 @@
+set showmode " always show what mode we're currently editing in
+
+set quickscope
+set ignorecase
+set showcmd
+
+set easymotion
+set NERTree
+set comentary
+
+" multiple-cursors
+set multiple-cursors
+" Remap multiple-cursors shortcuts to match terryma/vim-multiple-cursors
+nmap <C-n> <Plug>NextWholeOccurrence
+xmap <C-n> <Plug>NextWholeOccurrence
+nmap g<C-n> <Plug>NextOccurrence
+xmap g<C-n> <Plug>NextOccurrence
+nmap <C-x> <Plug>SkipOccurrence
+xmap <C-x> <Plug>SkipOccurrence
+nmap <C-p> <Plug>RemoveOccurrence
+xmap <C-p> <Plug>RemoveOccurrence
+
+" Surround
+set surround
+
+" Smart join
+set ideajoin
+
+" Leaves vim icon displayed on status bar
+set ideastatusicon=enabled
+
+" Help to refactor
+set idearefactormode=keep
+
+" :w save current file
+set ideawrite=file
+
+source ~/.config/local/.vimrc.local
+
+Plug 'tpope/vim-commentary'
+
+set clipboard+=unnamed
