@@ -5,7 +5,7 @@ set ignorecase
 set showcmd
 
 set easymotion
-set NERTree
+set NERDTree
 set comentary
 
 " multiple-cursors
